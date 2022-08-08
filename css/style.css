@@ -57,7 +57,7 @@ li {
 }
 
 .mainrogo {
-  background-image: url(/image/酒ロゴ説明背景氷.png);
+  background-image: url(/image/sakerogohaikeisetumei.png);
   background-repeat: no-repeat;
   margin-top: -340px;
   width: 1503px;
@@ -79,7 +79,7 @@ div .p {
 }
 
 .remon {
-  background-image: url(/image/レモン酒\　背景.png);
+  background-image: url(/image/remonsake-haikei.png);
   background-repeat: no-repeat;
   width: 1400px;
   height: 625px;
@@ -125,7 +125,7 @@ div .p {
 }
 
 .asahi {
-  background-image: url(/image/アサヒスーパードライ\　背景氷.png);
+  background-image: url(/image/asahisu-pa-doraihaikeikoori.png);
   background-repeat: no-repeat;
   width: 1400px;
   height: 1052px;
@@ -354,7 +354,7 @@ footer div {
 ITMEpage
 -------------------------------*/
 .tyu-hai {
-  background-image: url(/image/チューハイ背景.png);
+  background-image: url(/image/tyu-hai-haikei.png);
   background-repeat: no-repeat;
   width: 1400px;
   height: 280px;
@@ -380,7 +380,7 @@ section h3 {
 }
 
 .itmeremon {
-  background-image: url(/image/ITEMレモン背景.png);
+  background-image: url(/image/ITEMremonhaikei.png);
   background-repeat: no-repeat;
   width: 1400px;
   height: 280px;
@@ -422,7 +422,7 @@ section h3 {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-image: url(/image/枠線.png);
+  background-image: url(/image/wakusen.png);
   background-repeat: no-repeat;
   width: 870px;
   height: 701px;
@@ -503,7 +503,7 @@ section h3 {
 
 
 .tanosimikata {
-  background-image: url(/image/ITME\ 背景.png);
+  background-image: url(/image/ITMEhaikei.png);
   background-repeat: no-repeat;
   width: 1400px;
   height: 860px;
@@ -558,7 +558,7 @@ contact
 }
 
 .address {
-  background-image: url(/image/問い合わせ枠線.png);
+  background-image: url(/image/toiawasewakusen.png);
   background-repeat: no-repeat;
   margin-top: 120px;
   margin-bottom: 240px;
