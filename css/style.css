@@ -1,0 +1,601 @@
+/* ------------------------------
+全体構造
+-------------------------------*/
+body {
+  width: 1400px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+/* ------------------------------
+ヘッダー
+-------------------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  margin-top: 20px;
+  border: 1px solid #cfcfcf;
+  background-color: rgba(255, 255, 255, .5);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+header .headerrogo {
+  margin-left: 40px;
+
+}
+
+nav ul {
+  display: flex;
+  margin-left: 527px;
+  padding-top: 5px;
+}
+
+li {
+  margin-right: 45px;
+}
+
+
+
+
+/* ------------------------------
+メイン
+-------------------------------*/
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.bxslider {
+  margin-top: px;
+}
+
+.mainrogo {
+  background-image: url(/image/酒ロゴ説明背景氷.png);
+  background-repeat: no-repeat;
+  margin-top: -340px;
+  width: 1503px;
+  height: 978px;
+
+}
+
+.mainrogo div {
+  margin-left: 600px;
+  height: 978px;
+  padding-top: 400px;
+  font-size: 12px;
+  padding-left: 40px;
+}
+
+div .p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.remon {
+  background-image: url(/image/レモン酒\　背景.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 625px;
+}
+
+.box {
+  width: 425px;
+  height: 425px;
+  background-color: rgba(255, 255, 255, .5);
+  backdrop-filter: blur(10px);
+  border: 1px solid #cfcfcf;
+  margin-left: 850px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.box h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.box h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box p {
+  margin-bottom: 20px;
+}
+
+.box a {
+  margin-left: 50px;
+
+}
+
+
+.center {
+  width: 1400px;
+  height: 625px;
+  padding-top: 100px;
+}
+
+.asahi {
+  background-image: url(/image/アサヒスーパードライ\　背景氷.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1052px;
+  padding-top: 350px;
+  padding-left: 750px;
+}
+
+.asahi-setumei {
+  width: 400px;
+  height: 300px;
+
+}
+
+.asahi-setumei p {
+  margin-bottom: 20px;
+}
+
+.asahi-setumei a {
+  margin-left: 55px;
+}
+
+/* ------------------------------
+フッター
+-------------------------------*/
+footer {
+  height: 340px;
+  margin-bottom: 20px;
+  border: 1px solid #cfcfcf;
+  padding-top: 40px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+.sns {
+  margin-bottom: 40px;
+}
+
+.sns div {
+  margin-right: 100px;
+}
+
+
+/* ------------------------------
+アニメーション
+-------------------------------*/
+
+.hover1 {
+  display: inline-block;
+  padding-left: 100px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 290px;
+  height: 60px;
+  padding-top: 18px;
+}
+
+.hover1:hover {
+  opacity: 0.6;
+}
+
+.hover2 {
+  display: inline-block;
+  padding-top: 27px;
+  padding-left: 155px;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: 230px;
+  margin-bottom: 130px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 450px;
+  height: 80px;
+}
+
+.hover2:hover {
+  opacity: 0.6;
+}
+
+.hover3 {
+  display: inline-block;
+  padding-top: 27px;
+  padding-left: 145px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 450px;
+  height: 80px;
+
+}
+
+.hover3:hover {
+  opacity: 0.6;
+}
+
+.hover4 {
+  display: inline-block;
+  padding-left: 65px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 250px;
+  height: 60px;
+  padding-top: 18px;
+}
+
+.hover4:hover {
+  opacity: 0.6;
+}
+
+.hover5 {
+  display: inline-block;
+  padding-left: 65px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 250px;
+  height: 60px;
+  padding-top: 18px;
+}
+
+.hover5:hover {
+  opacity: 0.6;
+}
+
+.hover6 {
+  display: inline-block;
+  padding-left: 65px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 250px;
+  height: 60px;
+  padding-top: 18px;
+  margin-top: 25px;
+}
+
+.hover6:hover {
+  opacity: 0.6;
+}
+
+.hover7 {
+  display: inline-block;
+  padding-left: 170px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 470px;
+  height: 60px;
+  padding-top: 18px;
+  margin-top: 25px;
+}
+
+.hover7:hover {
+  opacity: 0.6;
+
+}
+
+.hover8 {
+  display: inline-block;
+  padding-left: 180px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 470px;
+  height: 60px;
+  padding-top: 18px;
+  margin-top: 90px;
+
+}
+
+.hover8:hover {
+  opacity: 0.6;
+}
+
+
+/* ------------------------------
+スクロール　フェード
+-------------------------------*/
+.fade-in {
+  opacity: 0;
+  transition-duration: 2500ms;
+  transition-property: opacity, transform;
+}
+
+.fade-in-up {
+  transform: translate(0, 50px);
+}
+
+.fade-in-down {
+  transform: translate(0, -50px);
+}
+
+.fade-in-left {
+  transform: translate(-50px, 0);
+}
+
+.fade-in-right {
+  transform: translate(50px, 0);
+}
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* ------------------------------
+ITMEpage
+-------------------------------*/
+.tyu-hai {
+  background-image: url(/image/チューハイ背景.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 280px;
+
+}
+
+section h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.syouhin p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.itmeremon {
+  background-image: url(/image/ITEMレモン背景.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 280px;
+}
+
+.kakuteru {
+  width: 1000px;
+  height: 440px;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -140px;
+  margin-left: 200px;
+  margin-bottom: 130px;
+  background-color: rgba(255, 255, 255, .5);
+  backdrop-filter: blur(10px);
+  border: 1px solid #cfcfcf;
+
+}
+
+.kakuteru h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.kakuteru h4 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.kakuteru p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tyu-haisen {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-image: url(/image/枠線.png);
+  background-repeat: no-repeat;
+  width: 870px;
+  height: 701px;
+  padding-top: 40px;
+  margin-bottom: 130px;
+}
+
+.tyu-haisen .ramune {
+  width: 250px;
+}
+
+.ramune img {
+  margin-left: 30px;
+}
+
+.ramune figcaption {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ramune .p {
+  text-align: center;
+}
+
+.ramune p {
+  margin-bottom: 30px;
+
+}
+
+
+.tyu-haisen .watta {
+  width: 250px;
+  margin: 0 60px;
+}
+
+.watta img {
+  margin-left: 30px;
+}
+
+.watta figcaption {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.watta .p {
+  text-align: center;
+}
+
+.watta p {
+  margin-bottom: 30px;
+
+}
+
+.tyu-haisen .remonsawa- {
+  width: 250px;
+}
+
+.remonsawa- img {
+  margin-left: 30px;
+}
+
+.remonsawa- figcaption {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.remonsawa- .p {
+  text-align: center;
+}
+
+.remonsawa- p {
+  margin-bottom: 30px;
+
+}
+
+
+.tanosimikata {
+  background-image: url(/image/ITME\ 背景.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 860px;
+  margin-bottom: 130px;
+  padding: 120px 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.tanosimikata p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.tanosimikata .wrapper {
+  margin-right: 160px;
+}
+
+.tanosimikata div {
+  width: 470px;
+
+}
+
+.remongurasu {
+  margin-bottom: 40px;
+}
+
+.zansiro {
+  margin-bottom: 40px;
+}
+
+
+/* ------------------------------
+contact
+-------------------------------*/
+.yohaku {
+  width: 1400px;
+  height: 100px;
+}
+
+.otoiawase h1 {
+  font-size: 40px;
+}
+
+.otoiawase h3 {
+  font-size: 20px;
+}
+
+.otoiawase p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.address {
+  background-image: url(/image/問い合わせ枠線.png);
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  margin-bottom: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 401px;
+  display: flex;
+}
+
+ul .denwa {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+ul .fax {
+  margin-bottom: 50px;
+}
+
+ul .mail {
+  margin-bottom: 47px;
+}
+
+.bangou {
+  margin-left: 150px;
+}
+
+ul .zero {
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+ul .iti {
+  margin-bottom: 60px;
+}
+
+ul .mail2 {
+  margin-bottom: 50px;
+
+}
